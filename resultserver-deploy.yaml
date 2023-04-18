@@ -15,7 +15,7 @@ spec:
         app: resultserver-deploy
     spec:
       containers:
-      - image: tanersylr/resultserver
+      - image: mehmetkulahci/result206
         name: resultserver
         ports:
         - containerPort: 80

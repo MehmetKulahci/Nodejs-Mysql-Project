@@ -32,7 +32,7 @@ spec:
               name: mysql-secret
               key: mysql_admin_password
         - name: MYSQL_USER
-            # value: taners
+            # value: mehmet
           valueFrom:
             configMapKeyRef:
               name: servers-configmap
